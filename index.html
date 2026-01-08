@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
 
+<h1>🍽 Restaurant Menu</h1>
+
+<div class="menu">
+
+    <div class="category">
+        <h2>Starters</h2>
+        <ul>
+            <li>
+                Veg Starters
+                <ul>
+                    <li>Paneer Tikka — ₹220</li>
+                    <li>Veg Spring Roll — ₹180</li>
+                </ul>
+            </li>
+            <li>
+                Non-Veg Starters
+                <ul>
+                    <li>Chicken Lollipop — ₹260</li>
+                    <li>Chicken Tikka — ₹280</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="category">
+        <h2>Main Course</h2>
+        <ul>
+            <li>
+                Veg
+                <ul>
+                    <li>Paneer Butter Masala — ₹260</li>
+                    <li>Dal Tadka — ₹180</li>
+                </ul>
+            </li>
+            <li>
+                Non-Veg
+                <ul>
+                    <li>Chicken Curry — ₹300</li>
+                    <li>Mutton Curry — ₹420</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="category">
+        <h2>Desserts</h2>
+        <ul>
+            <li>Gulab Jamun — ₹90</li>
+            <li>Ice Cream — ₹120</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
