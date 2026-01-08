@@ -1,43 +1,58 @@
+/* Page load fade-in */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     padding: 20px;
+    animation: fadeIn 1s ease-in;
 }
 
+/* Title animation */
 h1 {
     text-align: center;
+    animation: slideDown 0.8s ease-out;
 }
 
+/* Main menu card */
 .menu {
     max-width: 600px;
     margin: auto;
-    background-color: #ffffff;
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
+    animation: zoomIn 0.6s ease-in;
 }
 
+/* Category cards */
 .category {
     margin-bottom: 25px;
+    animation: slideUp 0.7s ease;
 }
 
+/* Category heading hover animation */
 .category h2 {
     background-color: #ff7043;
     color: white;
     padding: 10px;
     border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
+.category h2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Menu lists */
 ul {
     list-style-type: none;
     padding-left: 20px;
 }
 
+/* Item hover effect */
 ul li {
     margin: 8px 0;
-    font-size: 16px;
+    transition: transform 0.2s;
 }
 
-ul li ul li {
-    color: #555;
-    font-size: 15px;
-}
+ul li:h
+
